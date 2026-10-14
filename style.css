@@ -1,6 +1,7 @@
 
 a:link {
   text-decoration: none;
+  
 }
 .navbar{
     display: flex;
@@ -24,7 +25,7 @@ a:link {
 .third_half{
     background-color:#FF6418;
     height: 2.75em;
-    width: 10em;
+    width: 11em;
     border-radius: 0.625em; 
     display: flex;
     justify-content: center;
@@ -40,7 +41,7 @@ a:link {
 {
     background-color:#FF6418;
     height: 2.75em;
-    width: 10em;
+    width: 12em;
     border-radius: 0.625em; 
     display: flex;
     justify-content: center;
@@ -71,6 +72,7 @@ a:link {
 .items
 {
     display: flex;
+    gap: 10px;
 }
 .artisan{
     display: flex;
@@ -169,7 +171,7 @@ a:link {
     font-optical-sizing: auto;
     font-weight: 70%;
     font-style:normal;
-    border-color: #DCE5EC;
+    border-color: #DEC5EC;
 
 }
 .services{
@@ -217,5 +219,95 @@ a:link {
 .footer{
     background-color: #102A43;
 }
+#item{
+    background-color: #0866C2;
+    border-radius: 10px;
+    height:40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.liiens{
+    list-style: none;
+    gap: 20px;
+   
+}
+.liens_service{
+    list-style: none;
+}
+.telephone{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.email{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+.location
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 
 
+}
+.Informations
+{
+    display: flex;
+    justify-content:space-around;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 70%;
+    font-style:normal;
+}
+#facebokk{
+
+    
+    border-radius: 10px;
+    border: solid 1px;
+    height:40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #30485E;
+
+}
+#instagram{
+    border-radius: 10px;
+    border: solid 1px ;
+    height:40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #30485E;
+}
+#linkden{
+    border-radius: 10px;
+    border: solid 1px ;
+    height:40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #30485E;
+
+}
+.social{
+    display: flex;
+}
